@@ -7,7 +7,7 @@ services:
       - influxdb:/var/lib/influxdb
 
   app:
-    image: python
+    build: .
     links:
       - influxdb
 

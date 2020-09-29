@@ -122,3 +122,6 @@ if __name__ == '__main__':
     measure(options.nmeasurements)
         
     pprint.pprint(get_entries())
+
+
+# https://thedatafrog.com/en/articles/docker-influxdb-grafana/
